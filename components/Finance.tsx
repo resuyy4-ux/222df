@@ -1538,7 +1538,6 @@ const Finance: React.FC<FinanceProps> = ({ transactions, setTransactions, cards,
                 </form>
             </Modal>
 
-            {/* Card Modal */}
             <Modal isOpen={isCardModalOpen} onClose={() => setIsCardModalOpen(false)} title={cardModalMode === 'add' ? 'Tambah Kartu Baru' : 'Edit Kartu'}>
                 <form onSubmit={handleCardSubmit} className="space-y-4">
                     <div className="input-group">
